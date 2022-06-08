@@ -1,1 +1,1 @@
-# theme-wordpress
+# Developing WordPress theme
