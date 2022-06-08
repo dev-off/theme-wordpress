@@ -1,0 +1,30 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    box-shadow: 1px 9px 15px -5px rgba(0,0,0,0.27);
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .menu-main-container ul{
+ display: flex;
+}
+.header .menu-main-container li{
+    list-style: none;
+}
+.header .menu-main-container li > a {
+    padding: .5rem;
+    text-decoration: none;
+    color: var(--menu-color);
+    text-transform: uppercase;
+}
+
+.header__content__site-title a{
+    text-decoration: none;
+    color: var(--title-logo);
+}
